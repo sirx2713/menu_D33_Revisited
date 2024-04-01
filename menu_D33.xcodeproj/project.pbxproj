@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		2E21B25F2BB99B5B006E2035 /* menu_D33App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21B25E2BB99B5B006E2035 /* menu_D33App.swift */; };
-		2E21B2612BB99B5B006E2035 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21B2602BB99B5B006E2035 /* ContentView.swift */; };
+		2E21B2612BB99B5B006E2035 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21B2602BB99B5B006E2035 /* MainView.swift */; };
 		2E21B2632BB99B5D006E2035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E21B2622BB99B5D006E2035 /* Assets.xcassets */; };
 		2E21B2662BB99B5D006E2035 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E21B2652BB99B5D006E2035 /* Preview Assets.xcassets */; };
+		2E21B26D2BB9A2F7006E2035 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21B26C2BB9A2F7006E2035 /* SushiView.swift */; };
+		2E21B26F2BB9A316006E2035 /* SushiLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21B26E2BB9A316006E2035 /* SushiLogic.swift */; };
+		2E21B2712BB9A327006E2035 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21B2702BB9A327006E2035 /* DataService.swift */; };
+		2E21B2752BB9A974006E2035 /* JapaneseSushi.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E21B2742BB9A974006E2035 /* JapaneseSushi.json */; };
+		2E21B2772BB9ADF2006E2035 /* SushiSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21B2762BB9ADF2006E2035 /* SushiSheetView.swift */; };
+		2E21B27B2BB9BC2B006E2035 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21B27A2BB9BC2B006E2035 /* MotionAnimationView.swift */; };
+		2E21B27D2BB9BEFB006E2035 /* CloseSushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E21B27C2BB9BEFB006E2035 /* CloseSushiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E21B25B2BB99B5B006E2035 /* menu_D33.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = menu_D33.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E21B25E2BB99B5B006E2035 /* menu_D33App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu_D33App.swift; sourceTree = "<group>"; };
-		2E21B2602BB99B5B006E2035 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E21B2602BB99B5B006E2035 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2E21B2622BB99B5D006E2035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E21B2652BB99B5D006E2035 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E21B26C2BB9A2F7006E2035 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
+		2E21B26E2BB9A316006E2035 /* SushiLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiLogic.swift; sourceTree = "<group>"; };
+		2E21B2702BB9A327006E2035 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2E21B2742BB9A974006E2035 /* JapaneseSushi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JapaneseSushi.json; sourceTree = "<group>"; };
+		2E21B2762BB9ADF2006E2035 /* SushiSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiSheetView.swift; sourceTree = "<group>"; };
+		2E21B27A2BB9BC2B006E2035 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		2E21B27C2BB9BEFB006E2035 /* CloseSushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseSushiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +66,16 @@
 			isa = PBXGroup;
 			children = (
 				2E21B25E2BB99B5B006E2035 /* menu_D33App.swift */,
-				2E21B2602BB99B5B006E2035 /* ContentView.swift */,
+				2E21B2602BB99B5B006E2035 /* MainView.swift */,
 				2E21B2622BB99B5D006E2035 /* Assets.xcassets */,
 				2E21B2642BB99B5D006E2035 /* Preview Content */,
+				2E21B26C2BB9A2F7006E2035 /* SushiView.swift */,
+				2E21B26E2BB9A316006E2035 /* SushiLogic.swift */,
+				2E21B2702BB9A327006E2035 /* DataService.swift */,
+				2E21B2742BB9A974006E2035 /* JapaneseSushi.json */,
+				2E21B2762BB9ADF2006E2035 /* SushiSheetView.swift */,
+				2E21B27A2BB9BC2B006E2035 /* MotionAnimationView.swift */,
+				2E21B27C2BB9BEFB006E2035 /* CloseSushiView.swift */,
 			);
 			path = menu_D33;
 			sourceTree = "<group>";
@@ -126,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E21B2662BB99B5D006E2035 /* Preview Assets.xcassets in Resources */,
+				2E21B2752BB9A974006E2035 /* JapaneseSushi.json in Resources */,
 				2E21B2632BB99B5D006E2035 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E21B2612BB99B5B006E2035 /* ContentView.swift in Sources */,
+				2E21B2612BB99B5B006E2035 /* MainView.swift in Sources */,
+				2E21B26F2BB9A316006E2035 /* SushiLogic.swift in Sources */,
 				2E21B25F2BB99B5B006E2035 /* menu_D33App.swift in Sources */,
+				2E21B2772BB9ADF2006E2035 /* SushiSheetView.swift in Sources */,
+				2E21B27D2BB9BEFB006E2035 /* CloseSushiView.swift in Sources */,
+				2E21B27B2BB9BC2B006E2035 /* MotionAnimationView.swift in Sources */,
+				2E21B26D2BB9A2F7006E2035 /* SushiView.swift in Sources */,
+				2E21B2712BB9A327006E2035 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
